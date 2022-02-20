@@ -53,14 +53,11 @@ app.get('/articles', (req, res) => {
   })
 })
 
-<<<<<<< HEAD
 app.get('/movies', (req, res) => {
   res.render('pages/movies', {
     movies: movies
   })
 })
-=======
->>>>>>> d4f122e2fd0fd9a960a5501223fdde8d768126c6
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
