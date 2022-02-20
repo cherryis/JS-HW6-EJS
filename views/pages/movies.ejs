@@ -1,0 +1,20 @@
+<%- include('../partials/head') %>
+
+<h2>Movies EJS Page by Soon Ryu</h2>
+<body>
+    <ul>
+        <% movies.forEach((movie)=> { %>
+            <li>
+                <h2>
+                    <%= movie.title %>
+                </h2>
+                <p>
+                    <%= movie.year %>
+                </p>
+            </li>
+            <hr />
+        <% }) %>
+    </ul>
+</body>
+
+<%- include('../partials/footer') %>
